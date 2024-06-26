@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+.grid-item {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.innertext
+{
+  position: relative;
+  top:40%;
+  right:25em;
+  column-count: 2;
+  justify-content:center;
+}
+.item01 ,.item02{
+  line-height: 1.1;
+}
+
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    
+    <div class="grid-item product-image">
+        <img src="path/to/product-image.jpg" alt="Mi Notebook Ultra">
+      
+        <div class="innertext">
+      
+          <div class=" item01" style="text-align: right ;">  
+      <span class=" text-dark " style="font-size: 20px; padding-right: 120px; ">Thin</span>
+      <span class="text-dark mr-5 " style="font-size: 30px; font-weight: bold;">
+        17.9mm
+      </span></div>
+    </div>
+         
+    </div>
+  
+    
+    <div class="grid-item product-details">
+        <h2>Mi Notebook Ultra</h2>
+        <p>Discover the power and elegance of the Mi Notebook Ultra.</p>
+        
+      
+        <div class="key-features">
+            <h3>Key Features</h3>
+            <ul>
+                <li>High-resolution display</li>
+                <li>Powerful processor</li>
+                <li>Long-lasting battery</li>
+                <li>Thin and lightweight design</li>
+            </ul>
+        </div>
+        
+        
+        <div class="specifications">
+            <h3>Specifications</h3>
+            <ul>
+                <li>Display: 15.6" FHD</li>
+                <li>Processor: Intel Core i7</li>
+                <li>RAM: 16GB</li>
+                <li>Storage: 512GB SSD</li>
+            </ul>
+        </div>
+        
+      
+        <a href="#" class="cta-button">Buy Now</a>
+    </div>
+  </div>
+  
+</body>
+</html>
